@@ -3,18 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>🖤soliyana's  persoanal site🖤</title>
+    <link rel="stylesheet" href="css\styles.css">
 </head>
 <body>
-    <img src="./image/photot.jpg" alt="soliyana's pic">
-    <h1>resume</h1>/h1>
-    <a href="home.html">home</a>
-    <a href="aboutme.html">aboutme</a>
-    <a href="hobbies.html">hobbies</a>
-    <a href="contact.html">contact</a>
+  <div class="container">
+    <header class="header">
+      <img src="./image/photot.jpg" alt="soliyana's pic" id="logo">
+      <h1 id="h1">resume</h1>
+      <div class="navigation">
+          <input type="checkbox" class="toggle-menu ">
+          <div class="hamburger"></div>
+          <ul class="menu">
+              
+              <li><a href="./home.html">home</a></li>
+              <li><a href="./aboutme.html">aboutme</a></li>
+              <li><a href="./hobbies.html">hobbies</a></li>
+              <li><a href="./contact.html">contact</a></li>
+              
+          </ul>
+    </header>
+  </div>
     <hr>
+    <br>
     <p>being young doesnt mean one lack the exprience to share. as long as we trive, we succeed. so in the past i have had quite an event full past years. some of them are listed below. </p>
-    <table>
+    <br>
+  </div>
+    <div class="table">
+     <table>
         <tr>
             <th>volunteering </th>
             <th>skill</th>
@@ -46,25 +62,33 @@
              </ul>
         </tr>
     </table>
+   </div>
+    <br>
    <p>care eplespsy ethiopia was one of the best decision of life. getting to understand other people even a little bit was both satisfying and terrifying. neverthless i enjoyed it.</p> 
    <p>and from my education experience, i had the  happiest and worst memories in kotebe SSC school which was my highschool. i realized then that chasing grades was the start of a great fail and i also learned being your self has its own cost. overall it was the place that matured me up and buffed me for the real world.</p>
-   <svg >
+   <br>
+   <svg id="larger-image">
 
     <circle cx="100" cy="100" r="80" transform="rotate(-90 100 100)"  />
     <circle cx="100" cy="100" r="80" transform="rotate(-90 100 100)" />
-  </svg>
-  <footer>
-    <p>all rights are reserved</p>
+   </svg>
+   <hr>
+   <footer class="footer">
+    <p id="font">all rights are reserved</p>
 
     <aside>
-       <address>
-          <i class="fas fa-location"></i> ADDIS ABABA<br>
-          <i class="fa-solid fa-phone"></i> +251 966798231 <br>
+       <address class="adress">
+        <div id="font">
+          <i class="fa-solid fa-phone"></i> +251 966798231 
+        </div>
+        <div>
+          <img src="./image/download.jpeg" alt="email logo" id="logo">
+        </div>
+        <div id="font">
           <a href="mailto:soliyanakewani228@gmail.com"><i class="fa-solid fa-envelope"></i>soliyanakewani228@gmail.com</a></address>
-      
+        </div>
     </aside>
- </footer>
-
-    
+   </footer>
+ </div>   
 </body>
 </html>
