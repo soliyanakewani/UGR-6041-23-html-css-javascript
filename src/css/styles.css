@@ -18,15 +18,15 @@
 
 }
 body{
-    /* display: flex; */
+  
     background-color:#E5D4FF;
     padding: 0px;;
     align-items: center;
-    text-align:center;
+    text-align: center;
     font-family: sans-serif;
     font-size: 1.5em;
    
-    /* flex-direction: column; */
+  
 }
 
 
@@ -57,16 +57,7 @@ body{
     transition: 0.5s;
 }
 
-/* .sidebar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 200px;
-    background-color:white;
-    padding-top: 20px;
-    box-sizing: border-box;
-  } */
+
 .menu li {
     list-style-type: none;
     padding: 0;
@@ -75,7 +66,7 @@ body{
 
 .menu li a {
     color: black;
-    text-decoration:double;
+    text-decoration: double;
     display: block;
     padding: 40px 25px;
     font-size: 18px;
@@ -83,7 +74,7 @@ body{
     transition: 0.3s;
 }
 
-.menu li a:hover {
+.menu li a: hover {
     box-shadow: 0 -5px 0px #fff inset, 500px 0 0 rgba(255, 255, 255, 0.03) inset;
     padding: 35px 25px 45px 25px;
 }
@@ -100,8 +91,8 @@ body{
     margin-right: 10px;
 }
 
-.hamburger:before,
-.hamburger:after {
+.hamburger: before,
+.hamburger: after {
     content: "";
     position: absolute;
     height: 4px;
@@ -112,11 +103,11 @@ body{
     top: 0; 
 }
 
-.hamburger:before {
+.hamburger: before {
     top: 10px;
 }
 
-.hamburger:after {
+.hamburger: after {
     top: -10px;
 }
 
@@ -129,7 +120,7 @@ body{
     opacity: 0;
 }
 
-.navigation input:checked ~ .hamburger {
+.navigation input: checked ~ .hamburger {
     background: transparent;
 }
 
@@ -145,7 +136,7 @@ body{
     width: 30px;
 }
 
-.navigation input:checked ~ .menu {
+.navigation input: checked ~ .menu {
     right: 0;
     box-shadow: -20px 0 40px rgba(255, 255, 255, 0.3);
 }
@@ -165,7 +156,7 @@ body{
         position: fixed;
         top: 0;
         right: -300px;
-        background:plum;
+        background: plum;
         width: 200px;
         height: 100%;
         padding-top: 65px;
@@ -175,7 +166,7 @@ body{
         margin-bottom:30px ;
     }
     .menu li a,
-    .menu li a:hover {
+    .menu li a: hover {
         padding: 30px;
         font-size: 24px;
         box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
@@ -202,10 +193,10 @@ a:hover{
 }
 hr{
 
- border-color:grey;
+ border-color: grey;
 border-width: 5px;
  margin: 10px 0;
- border-style:dotted none none ;
+ border-style: dotted none none ;
 }
 #logo{
     width: 30px;
@@ -227,21 +218,15 @@ border-width: 5px;
     flex-direction: column;
     padding:0px;
     flex: 1;
-    float:left;
+    float: left;
 
    
 }
-/* #font{
-    font-size:0.6em;
-    display: flex;
-    flex-direction: row;
-    padding:0px;
-    flex: 1;
-    */
 
 
-/* } */
-.footer aside{
+
+
+.footer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -315,7 +300,6 @@ tr:hover {
 .footer {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     align-items: flex-start;
     background-color: #D0A2F7;
     padding: 5px;
@@ -334,7 +318,7 @@ tr:hover {
     align-items: center;
   }
   
-.instagram  img {
+.instagram img {
     max-width: 100%;
     margin-right: 20px;
   }
@@ -377,8 +361,7 @@ tr:hover {
     
       #images,
       #video {
-       /* Adjust the width as needed, leaving some space for margins */
-        margin-bottom: 15px; /* Add some margin to separate the image and video */
+        margin-bottom: 15px;
       }
     .figure{
         display: flex;
@@ -416,7 +399,7 @@ tr:hover {
         box-shadow: 0.5s;
 
     }
-    .menu:hover {
+    .menu: hover {
         background-color: #E7BCDE;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) inset;
     }
@@ -425,7 +408,7 @@ tr:hover {
         height: fit-content;
     }
     .menu li a,
-    .menu li a:hover {
+    .menu li a: hover {
         padding: 20px;
         font-size: 18px;
         box-shadow: 0 1px 0 rgba(255,255,255,0.1)
@@ -479,7 +462,7 @@ tr:hover {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        /* width: 100%; */
+        
       
     }
     figure{
