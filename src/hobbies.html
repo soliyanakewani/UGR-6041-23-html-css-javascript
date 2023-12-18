@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🖤soliyana's  persoanal site🖤</title>
-    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
  </head>
  <body>
     <div class="container">
-        <header class="header">
-          <img src="./image/photot.jpg" alt="soliyana's pic" id="logo">
-          <h1 id="h1">hobbies</h1>
-          <div class="navigation">
-              <input type="checkbox" class="toggle-menu ">
-              <div class="hamburger"></div>
-              <ul class="menu">
+         <header class="container__header">
+          <img src="./image/photot.jpg" alt="soliyana's pic" class="container__header__logo">
+          <h1 class="container__header__title">hobbies</h1>
+          <div class="container__header__navigation">
+              <input type="checkbox" class="container__header__navigation__toggle-menu ">
+              <div class="container__header__navigation__hamburger"></div>
+              <ul class="container__header__navigation__menu">
                   
                   <li><a href="./home.html">home</a></li>
                   <li><a href="./aboutme.html">aboutme</a></li>
@@ -22,51 +22,58 @@
                   <li><a href="./contact.html">contact</a></li>
                   
               </ul>
+              </div>
         </header>
-       </div>
+       
     <hr>
-    <div class="figure">
-     <div class="row1">
-      <figure>
-        <img src="./image/red2.jpg" alt="red rose" id="images">
-        <figcaption id="caption">>pure symbol of true love</figcaption>
-      </figure>
-      <figure>
-        <img src="./image/firfirtera.jpg" alt="image of the sky and people just walking by" id="images">
-        <figcaption id="caption">>calming weather around campus</figcaption>
-    
-      </figure>
+    <div class="container__figure">
+     <div class="container__figure__row1">
+      
+        <img src="./image/red2.jpg" alt="red rose" class="container__figure__row1__images">
+        <figcaption class="container__figure__row1__caption">pure symbol of true love</figcaption>
      </div>
-     <div class="row2">
-      <figure>
-        <img src="./image/pink.jpg" alt="pink flower" id="images">
-        <figcaption id="caption">pink hiding in the green</figcaption>
-      </figure>
+
+     <div class="container__figure__row2">
+      
+        <img src="./image/firfirtera.jpg" alt="image of the sky and people just walking by" class="container__figure__row2__images">
+        <figcaption class="container__figure__row2__caption">calming weather around campus</figcaption>
+    
+      </div> 
+     
+     <div class="container__figure__row3">
+      
+        <img src="./image/pink.jpg" alt="pink flower" class="container__row3__figure__images">
+        <figcaption class="container__figure__row3__caption">pink hiding in the green</figcaption>
+     
      </div>
     </div>
-    <p>This is me. Anyone who knows me knows how i am opssesed with taking pictures. capturing the moment on my phone make sme happier. even if it is my profession, i still dont see it as work but my freedom. looking back at the photos i took makes me realise it is just a matter of being seen and an angle to be seen that will make things more beautiful.  </p>
-    <p>in addition to photography, poetry is also my all time favorite hobby. i take what the world gave me through pictures and i show the world my insides through my poems. ever since i was little i have diffculty expressing my emotions on the moment of action but after was a beautiful moment of me communicating through my pens with the papers and not real people. and that was how i developed my skill of poetry. i have morethan 100 poems lying one on top of the other in my drawer waiting to be  told to the world who made contribution for their creastion. </p>
+    <p class="container__paragraph">This is me. Anyone who knows me knows how i am opssesed with taking pictures. capturing the moment on my phone make sme happier. even if it is my profession, i still dont see it as work but my freedom. looking back at the photos i took makes me realise it is just a matter of being seen and an angle to be seen that will make things more beautiful.  </p>
+    <p class="container__paragraph">in addition to photography, poetry is also my all time favorite hobby. i take what the world gave me through pictures and i show the world my insides through my poems. ever since i was little i have diffculty expressing my emotions on the moment of action but after was a beautiful moment of me communicating through my pens with the papers and not real people. and that was how i developed my skill of poetry. i have morethan 100 poems lying one on top of the other in my drawer waiting to be  told to the world who made contribution for their creastion. </p>
     
-    <audio controls>
+    <audio controls class="container__audio">
      <source src="audio.mp3" type="audio/mp3">
      Your browser does not support the audio element.
 
 
     </audio>
-    <p>the lyric of this holy mezmur is the best one i know so far that i could guarantee 100 the best poem ever. eventhough it is not a poem it self the lyric is more powerfull for me.</p>
+    <p class="container__paragraph">the lyric of this holy mezmur is the best one i know so far that i could guarantee 100 the best poem ever. eventhough it is not a poem it self the lyric is more powerfull for me.</p>
     <hr>
-    <footer>
+    <footer class="container__footer">
       <p>all rights are reserved</p>
 
-     <aside>
-       <address>
-        
-          <i class="fa-solid fa-phone"></i> +251 966798231 
-          <img src="./image/download.jpeg" alt="email logo" id="logo">
-          <a href="mailto:soliyanakewani228@gmail.com"><i class="fa-solid fa-envelope"></i>soliyanakewani228@gmail.com</a></address>
+    
+       
+      <div class="container__footer__font">
+        <i class="container__footer__font__fa-solid fa-phone"></i> +251 966798231 
+      </div>
+      <div class="container__footer__font">
+        <img src="./image/download.jpeg" alt="email logo" id="container__footer__font__logo">
+      </div>
+      <div class="container__footer__font">
+        <a href="mailto:soliyanakewani228@gmail.com"><i class="container__footer__font__fa-solid fa-envelope"></i>soliyanakewani228@gmail.com</a>
+      </div>
      
-     </aside>
     </footer>
-  </div>
+    </div>
  </body>
 </html>

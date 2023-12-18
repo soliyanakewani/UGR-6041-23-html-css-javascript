@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🖤soliyana's  persoanal site🖤</title>
-    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 <body>
  <div class="container">
-  <header class="header">
-    <img src="./image/photot.jpg" alt="soliyana's pic" id="logo">
-    <h1 id="h1">About me</h1>
-    <div class="navigation">
-        <input type="checkbox" class="toggle-menu ">
-        <div class="hamburger"></div>
+   <header class="container__header">
+     <img src="./image/photot.jpg" alt="soliyana's pic" class="container__header__logo">
+     <h1 class="container__header__title">About me</h1>
+     <div class="container__header__navigation">
+        <input type="checkbox" class="container__header__navigation__toggle-menu ">
+        <div class="container__header__navigation__hamburger"></div>
        
-        <ul class="menu">
+        <ul class="container__header__navigation__menu">
             
             <li><a href="./home.html">home</a></li>
             <li><a href="./hobbies.html">hobbies</a></li>
@@ -25,35 +25,43 @@
         </ul>
        
       </div>
-  </header>
- </div>
+   </header>
+ 
     
     
     <hr>
-    <div class="image-container">
-     <img src="./image/photot.jpg" alt="proffessional id pic of soliyana" id="images">
-     <br>
-   <div class="main-content">
+    <div class="container__main-content">
+     <div class="container__main-content__image-container">
+       <img src="./image/photot.jpg" alt="proffessional id pic of soliyana" class="container__main-content__image-container__image">
+       <br>
+     
+
+
   
     
-     <iframe src="https://www.youtube.com/embed/3KfVy9Sw7ms?si=GnkSsacK9sfgW2_g" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe>>
+       <iframe src="https://www.youtube.com/embed/3KfVy9Sw7ms?si=GnkSsacK9sfgW2_g" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" class="container__main-content__image-container__video"></iframe> 
+      </div>
+     <p class="container__main-content__paragraph">My Name is Soliyana and I am a professional photographer with over 5 years experience in the industry. i am 21 years old and am an orthodox. i hide and find peace of mind through holy mezmur and the holy bible.</p>
+     <p class="container__main-content__paragraph">my name is one of the biblical names which means <q>moon</q>. it was the  other name of saint mary. eventhough i dont deserve it, i pretty much love my name. </p>
     </div>
-     <p>My Name is Soliyana and I am a professional photographer with over 5 years experience in the industry. i am 21 years old and am an orthodox. i hide and find peace of mind through holy mezmur and the holy bible.</p>
-     <p>my name is one of the biblical names which means <q>moon</q>. it was the  other name of saint mary. eventhough i dont deserve it, i pretty much love my name. </p>
-   </div>
    <hr>
-    <footer>
-        <p>all rights are reserved</p>
+    <footer class="container__footer">
+        <p class="container__footer__paragraph">all rights are reserved</p>
   
-        <aside>
-           <address>
+        
+           
               
-              <i class="fa-solid fa-phone"></i> +251 966798231 
-              <img src="./image/download.jpeg" alt="email logo" id="logo">
-              <a href="mailto:soliyanakewani228@gmail.com"><i class="fa-solid fa-envelope"></i>soliyanakewani228@gmail.com</a></address>
-          
-        </aside>
-     </footer> 
+        <div class="container__footer__font">
+          <i class="container__footer__font__fa-solid fa-phone"></i> +251 966798231 
+        </div>
+        <div class="container__footer__font">
+          <img src="./image/download.jpeg" alt="email logo" id="container__footer__font__logo">
+        </div>
+        <div class="container__footer__font">
+          <a href="mailto:soliyanakewani228@gmail.com"><i class="container__footer__font__fa-solid fa-envelope"></i>soliyanakewani228@gmail.com</a>
+        </div>
+       
+    </footer> 
  </div>
 </body>
 </html>
